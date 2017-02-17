@@ -28,7 +28,7 @@ public class MainApplication extends JFrame{
 				public void run() {
 					application = new MainApplication();
 					application.setVisible(true);
-					
+					System.out.println("Test 1");
 				}});
 		} catch (InterruptedException e) {
 			e.printStackTrace();
